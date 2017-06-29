@@ -1,0 +1,27 @@
+{
+  "name": "google_scholar",
+  "version": "1.0.0",
+  "description": "get google scolar dataset",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanium2017/google_scholar.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "drake-jin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanium2017/google_scholar/issues"
+  },
+  "homepage": "https://github.com/hanium2017/google_scholar#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cheerio-httpcli": "^0.7.0"
+  }
+}
